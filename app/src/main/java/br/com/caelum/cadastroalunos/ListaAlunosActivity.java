@@ -21,6 +21,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import br.com.caelum.cadastro.dao.AlunoDAO;
+import br.com.caelum.cadastroalunos.adapter.AlunoAdapter;
 import br.com.caelum.cadastroalunos.entities.Aluno;
 import br.com.caelum.cadastroalunos.task.EnviaAlunosTask;
 
@@ -182,6 +183,11 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
                 new EnviaAlunosTask(this).execute();
 
+                return true;
+
+            case R.id.menu_receber_provas:
+                Intent provas = new Intent(this, ProvasActivity.class);
+                startActivity(provas);
                 return true;
         }
         return super.onOptionsItemSelected(item);

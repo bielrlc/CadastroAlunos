@@ -1,4 +1,4 @@
-package br.com.caelum.cadastroalunos;
+package br.com.caelum.cadastroalunos.converters;
 
 import org.json.JSONException;
 import org.json.JSONStringer;

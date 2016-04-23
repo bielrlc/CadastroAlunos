@@ -9,7 +9,7 @@ import java.util.List;
 
 import br.com.caelum.cadastro.dao.AlunoDAO;
 import br.com.caelum.cadastroalunos.entities.Aluno;
-import br.com.caelum.cadastroalunos.AlunoConverter;
+import br.com.caelum.cadastroalunos.converters.AlunoConverter;
 import br.com.caelum.cadastroalunos.support.WebClient;
 
 /**

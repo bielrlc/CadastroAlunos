@@ -1,4 +1,4 @@
-package br.com.caelum.cadastroalunos;
+package br.com.caelum.cadastroalunos.helpers;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -7,6 +7,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 
+import br.com.caelum.cadastroalunos.FormularioActivity;
+import br.com.caelum.cadastroalunos.R;
 import br.com.caelum.cadastroalunos.entities.Aluno;
 
 /**

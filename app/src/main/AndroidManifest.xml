@@ -19,10 +19,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-   l     </activity>
-        <activity android:name=".FormularioActivity">
-
         </activity>
+
+        <activity android:name=".ProvasActivity"/>
+
+        <activity android:name=".FormularioActivity"/>
         <receiver android:name="br.com.caelum.cadastroalunos.receiver.SMSReceiver"
             android:enabled="true">
             <intent-filter>

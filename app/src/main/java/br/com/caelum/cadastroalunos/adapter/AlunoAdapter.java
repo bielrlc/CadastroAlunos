@@ -1,4 +1,4 @@
-package br.com.caelum.cadastroalunos;
+package br.com.caelum.cadastroalunos.adapter;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import br.com.caelum.cadastroalunos.ListaAlunosActivity;
+import br.com.caelum.cadastroalunos.R;
 import br.com.caelum.cadastroalunos.entities.Aluno;
 
 /**

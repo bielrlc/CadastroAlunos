@@ -14,6 +14,7 @@ import java.io.File;
 
 import br.com.caelum.cadastro.dao.AlunoDAO;
 import br.com.caelum.cadastroalunos.entities.Aluno;
+import br.com.caelum.cadastroalunos.helpers.FormularioHelper;
 
 public class FormularioActivity extends AppCompatActivity {
 
